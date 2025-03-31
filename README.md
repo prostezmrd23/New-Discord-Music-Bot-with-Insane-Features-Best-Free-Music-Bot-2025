@@ -76,7 +76,7 @@ git fork https://github.com/Extremez-Surya/New-Discord-Music-Bot-with-Insane-Fea
 ---
 
 ## ❤️ Support & Credits
-💙 Developed by **[Your Name]**  
+💙 Developed by **[! Alone💔](https://discord.com/users/984409270344908872)**  
 📌 If you love this bot, consider ⭐ starring the repo!
 
 **🚀 Level up your Discord server’s music experience today!**
