@@ -1,6 +1,6 @@
 # 🎶 Ultimate Discord Music Bot 🚀
 
-![Music Bot Banner](https://media.giphy.com/media/3o7aCTfyhYawdOXcFW/giphy.gif)
+![Music Bot Banner](video.png)
 
 A **powerful, aesthetic, and feature-rich** Discord music bot designed for the ultimate listening experience! Enjoy seamless playback, high-quality audio, and a sleek modern UI. 🎧
 
