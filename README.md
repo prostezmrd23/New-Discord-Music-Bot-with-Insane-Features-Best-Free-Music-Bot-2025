@@ -51,12 +51,6 @@ npm start or node .
 
 ---
 
-## 📸 Screenshots
-![Music Bot UI](https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif)
-> *A sleek, modern, and interactive UI for the best experience!*
-
----
-
 ## 🛠 Technologies Used
 - **Node.js** & **Discord.js** 📜
 - **Kazagumo (Lavalink Wrapper)** 🎵
