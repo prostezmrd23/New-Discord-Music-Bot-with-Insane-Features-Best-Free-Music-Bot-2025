@@ -1,8 +1,6 @@
 <!-- README.md -->
 # 🎶 Ultimate Discord Music Bot 🚀
 
-![Music Bot Banner](https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif)
-
 The **Ultimate Discord Music Bot** delivers high-quality music with smooth playback, custom playlists, and nonstop 24/7 streaming! Packed with powerful features and a sleek design. 🎧🔥
 
 ## 🚀 Features:
@@ -71,7 +69,6 @@ The **Ultimate Discord Music Bot** delivers high-quality music with smooth playb
 <body>
     <div class="container">
         <h1 class="title">🎶 Ultimate Discord Music Bot 🚀</h1>
-        <img class="gif" src="https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif" alt="Music Bot">
         <p>High-quality music playback, custom playlists, and nonstop music! 🎧🔥</p>
         <button class="btn" onclick="window.location.href='https://discord.gg/cGJ4r9Ye4q'">Join Discord</button>
         <button class="btn" onclick="window.location.href='https://extremez.vercel.app'">Visit Website</button>
