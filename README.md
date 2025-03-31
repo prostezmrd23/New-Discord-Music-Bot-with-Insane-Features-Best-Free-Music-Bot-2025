@@ -19,8 +19,8 @@ A **powerful, aesthetic, and feature-rich** Discord music bot designed for the u
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/discord-music-bot.git
-cd discord-music-bot
+git https://github.com/Extremez-Surya/New-Discord-Music-Bot-with-Insane-Features-Best-Free-Music-Bot-2025.git
+cd New-Discord-Music-Bot-with-Insane-Features-Best-Free-Music-Bot-2025
 ```
 
 ### 2️⃣ Install Dependencies
@@ -32,13 +32,11 @@ npm install
 Create a `.env` file and add your **Discord Bot Token** and other details:
 ```env
 TOKEN=YOUR_DISCORD_BOT_TOKEN
-GUILD_ID=YOUR_SERVER_ID
-CLIENT_ID=YOUR_CLIENT_ID
 ```
 
 ### 4️⃣ Start the Bot
 ```bash
-npm start
+npm start or node .
 ```
 > 🎉 Your bot is now online and ready to play music!
 
@@ -71,13 +69,13 @@ npm start
 Got cool ideas? PRs are welcome! Fork the repo & submit improvements. 💡
 
 ```bash
-git fork https://github.com/your-username/discord-music-bot.git
+git fork https://github.com/Extremez-Surya/New-Discord-Music-Bot-with-Insane-Features-Best-Free-Music-Bot-2025.git
 ```
 
 ---
 
 ## 📌 Links
-🔹 **Invite the Bot:** [Click Here](https://discord.com/oauth2/authorize?client_id=YOUR_CLIENT_ID&scope=bot&permissions=8)  
+🔹 **Invite the Bot:** [Click Here](https://discord.gg/cGJ4r9Ye4q)  
 🔹 **Join Our Discord:** [Discord Server](https://discord.gg/cGJ4r9Ye4q)  
 🔹 **Website:** [Extremez](https://extremez.vercel.app)  
 
