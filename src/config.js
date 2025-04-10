@@ -1,6 +1,8 @@
 export default {
   TOKEN:
     "",
+  MONGO:
+    "mongodb+srv://atlas-sample-dataset-load-67f7bf41cb9b0a5b87aa664d:eOBhGlkVpUTL9Yjd@cluster0.qeqarye.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
   OWNER: ["1299394763933618239"],
   PREFIX: ".",
   COLOR: "#1e5eb9",
