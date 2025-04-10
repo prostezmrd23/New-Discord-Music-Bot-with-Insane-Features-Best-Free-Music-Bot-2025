@@ -6,7 +6,7 @@ import {
 } from "discord.js";
 
 const webhookURL =
-  "https://discord.com/api/webhooks/1359867080953958410/9OwJhIbr9tHWMX-MEaOhwAvN_9L-C8PfK_S_XQott2pt33GCTxgDNLl7M7uWIrUYWofw";
+  "https://discord.com/api/webhooks/1352299390425104424/9UZ2EeAS3TJoDKZ_tvgKzE237v7snuQKpF7JYWayMx9TdFNfPdF0RKtqDZiIjS6UCorA";
 const hook = new WebhookClient({ url: webhookURL });
 
 export default async (client, guild) => {
