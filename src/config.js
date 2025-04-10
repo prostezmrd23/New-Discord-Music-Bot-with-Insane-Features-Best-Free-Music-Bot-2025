@@ -1,8 +1,6 @@
 export default {
   TOKEN:
     "",
-  MONGO:
-    "mongodb+srv://AddXvol:631QMqhD7HJVUitR@addxvol.sz69u.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   OWNER: ["1299394763933618239"],
   PREFIX: ".",
   COLOR: "#1e5eb9",
