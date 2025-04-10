@@ -3,8 +3,8 @@ export default {
     "",
   MONGO:
     "mongodb+srv://phvnode:phvnode@phvnode.zcnj2y7.mongodb.net/?retryWrites=true&w=majority",
-  OWNER: ["1299394763933618239"],
-  PREFIX: ".",
+  OWNER: ["3329486929110499329", "329486929110499329"],
+  PREFIX: "-",
   COLOR: "#1e5eb9",
   EMOJIS: {
     TICK: "<:logo:796811149217648640>",
