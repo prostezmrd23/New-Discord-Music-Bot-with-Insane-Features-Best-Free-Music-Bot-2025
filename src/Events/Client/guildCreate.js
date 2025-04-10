@@ -5,8 +5,8 @@ import {
   EmbedBuilder,
 } from "discord.js";
 
-const webhookURL =
-  "https://discord.com/api/webhooks/1352299390425104424/9UZ2EeAS3TJoDKZ_tvgKzE237v7snuQKpF7JYWayMx9TdFNfPdF0RKtqDZiIjS6UCorA";
+// Replace this with your new webhook URL
+const webhookURL = "https://discord.com/api/webhooks/1359883096723292181/ufLNZVeto1q5J_QcWg_VPORefsEURhQVypOIPKuqnk0rSO_6ZOgj1tYHiu0q4uzZ5Gta";
 const hook = new WebhookClient({ url: webhookURL });
 
 export default async (client, guild) => {
@@ -24,7 +24,7 @@ export default async (client, guild) => {
     );
 
     const joinedEmbed = new EmbedBuilder()
-      .setColor("#FFD700") // Gold for premium feel
+      .setColor("#FFD700")
       .setTitle("✅ Joined a New Server!")
       .setDescription(
         `🎉 **${guild.name}** \n👥 **Members:** ${guild.memberCount}`
@@ -34,14 +34,17 @@ export default async (client, guild) => {
         text: `Total Servers: ${guildCount.reduce((a, b) => a + b, 0)}`,
       });
 
-    await hook.send({
-      content: "**📢 Server Joined! <@&1299394763933618239>**",
-      embeds: [joinedEmbed],
-    });
+    // Only try to send webhook if it exists
+    if (hook) {
+      await hook.send({
+        content: "**📢 Server Joined! <@&1299394763933618239>**",
+        embeds: [joinedEmbed],
+      }).catch(e => console.error("Webhook error:", e));
+    }
 
-    // Sending welcome message in the server
+    // Rest of your code...
     const welcomeEmbed = new EmbedBuilder()
-      .setColor("#00FF00") // Green for welcome feel
+      .setColor("#00FF00")
       .setAuthor({
         name: "Thanks for Adding The Extremez!",
         iconURL: guild.iconURL({ dynamic: true }),
@@ -64,11 +67,10 @@ export default async (client, guild) => {
       new ButtonBuilder()
         .setCustomId("playerselect")
         .setLabel("🎚️ Select Player")
-        .setStyle(2) // Grey button style
+        .setStyle(2)
         .setEmoji("🎵")
     );
 
-    // Find a suitable channel to send the embed
     const targetChannel = guild.channels.cache.find(
       (channel) =>
         [
@@ -89,7 +91,7 @@ export default async (client, guild) => {
       await targetChannel.send({
         embeds: [welcomeEmbed],
         components: [actionRow],
-      });
+      }).catch(e => console.error("Failed to send welcome message:", e));
     }
   } catch (error) {
     console.error("Error in guildCreate event:", error);
